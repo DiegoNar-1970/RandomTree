@@ -1,0 +1,80 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Directorios y archivos generados por Gradle
+.gradle/
+build/
+
+# Configuración de Gradle local
+gradle-app.setting
+gradle.properties
+gradlew
+gradlew.bat
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración de IDEs (IntelliJ, Eclipse, VS Code, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# Archivos de dependencias descargadas por Gradle
+**/out/
+**/bin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos de caché y temporales
+*.swp
+*.swo
+*.swn
+*.tmp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

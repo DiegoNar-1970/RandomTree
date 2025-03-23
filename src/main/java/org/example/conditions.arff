@@ -1,0 +1,14 @@
+@relation 'discricoches-weka.filters.unsupervised.attribute.Remove-R7-11,15-17'
+
+@attribute ﻿sexo {mujer,varón}
+@attribute edad numeric
+@attribute grupedad {'menor de 25',25-40,'más de 55',40-55}
+@attribute naños numeric
+@attribute tipovehiculo {Motocicleta,Turismo,'Monovolumen/ 4x4',Camioneta/Furgoneta}
+@attribute antigvehiculo {1-4,'menos de 1',10+,5-10}
+@attribute edadvehiculo numeric
+@attribute antigcarnet numeric
+@attribute kilometros numeric
+@attribute siniUA {'con siniestros','sin siniestros'}
+
+@data
